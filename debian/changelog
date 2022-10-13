@@ -1,0 +1,68 @@
+node-d3-random (1.1.2-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Strip unusual field spacing from debian/control.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update standards version to 4.4.1, no changes needed.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Pirate Praveen ]
+  * Use node-rollup-pluin-terser (now available in the archive)
+  * Bump Standards-Version to 4.5.1 (no changes needed)
+  * Enable nocheck build profile
+  * Use dh-sequence-nodejs auto install
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 16 Dec 2020 15:10:51 +0530
+
+node-d3-random (1.1.2-2) unstable; urgency=medium
+
+  * Reupload to unstable
+  * Bump Standards-Version to 4.4.0 (no changes needed)
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 10 Jul 2019 17:02:39 +0530
+
+node-d3-random (1.1.2-1) experimental; urgency=medium
+
+  * Team Upload.
+  * New upstream version 1.1.2
+  * Bump Standards-Version to 4.3.0
+  * Bump Debhelper-Version to 11
+  * Remove dist in clean
+  * Switch to rollup from webpack
+  * Switch to pkg-js-tools
+  * Install ES module (src directory)
+  * Make build reproducible
+  * Enable salsa CI
+  * Add upstream metadata file
+
+ -- Nilesh <npatra974@gmail.com>  Mon, 24 Jun 2019 00:31:25 -0700
+
+node-d3-random (1.1.0-4) unstable; urgency=medium
+
+  * Use umd module as main
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 06 Jan 2018 21:57:09 +0530
+
+node-d3-random (1.1.0-3) unstable; urgency=medium
+
+  * Don't install index.js
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 13 Oct 2017 23:47:07 +0530
+
+node-d3-random (1.1.0-2) unstable; urgency=medium
+
+  * Don't install src
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 13 Oct 2017 18:15:17 +0530
+
+node-d3-random (1.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #878127)
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 10 Oct 2017 15:29:38 +0530

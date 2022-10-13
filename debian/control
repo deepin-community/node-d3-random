@@ -1,0 +1,29 @@
+Source: node-d3-random
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends:
+ debhelper-compat (= 12)
+ , dh-sequence-nodejs
+ , nodejs
+ , rollup
+ , node-rollup-plugin-terser
+ , node-tape <!nocheck>
+ , node-seedrandom <!nocheck>
+ , node-d3-array <!nocheck>
+Standards-Version: 4.5.1
+Homepage: https://d3js.org/d3-random/
+Vcs-Git: https://salsa.debian.org/js-team/node-d3-random.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-d3-random
+Testsuite: autopkgtest-pkg-nodejs
+
+Package: node-d3-random
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Description: Generate random numbers from various distributions
+ This module provides an easy to use API over default Math.random().
+ .
+ Node.js is an event-based server-side JavaScript engine.
